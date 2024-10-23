@@ -1,0 +1,191 @@
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+.piscok {
+  height: 400px;
+  width: 400px;
+  margin-top: 30px;
+  margin-right: 140px;
+  margin-left: 100px;
+}
+
+.sosis {
+  height: 400px;
+  width: 400px;
+  margin-right: 100px;
+  margin-left: 20px;
+}
+
+a.tbl-biru {
+  background: #3f72af;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background: rgb(0, 211, 39);
+  text-decoration: none;
+}
+
+a.tbl-pink {
+  background: rgb(0, 211, 39);
+  border-radius: 20px;
+  padding: 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.tbl-pink:hover {
+  background: #3f72af;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #364f6b;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 991.98px) {
+  section {
+    display: block;
+  }
+
+  section img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+  }
+  
+  .menu-card {
+    border: 1px solid #ddd; /* Border for card */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensure content fits within the card */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    background-color: #fff; /* White background for cards */
+  }
+  
+  .menu-image {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .menu-details {
+    padding: 15px; /* Inner spacing for details */
+    text-align: center; /* Center align text */
+  }
+  
+  .price {
+    font-size: 1.5em; /* Larger font for price */
+    color: #333; /* Darker color for contrast */
+    margin: 10px 0; /* Spacing around the price */
+  }
+  
+  .order-button {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1em; /* Font size */
+  }
+  
+  .order-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .quantity-control button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .quantity-control span {
+    font-size: 1.2em;
+  }
+  
+  .checkout-container {
+    position: fixed; /* Memastikan tombol tetap di posisi yang sama */
+    bottom: 20px;    /* Jarak dari bagian bawah */
+    left: 20px;      /* Jarak dari sisi kiri */
+  }
+  
+  .checkout-button {
+    background-color: #ff4081; /* Ubah sesuai kebutuhan */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .payment-button {
+    background-color: #4CAF50; /* Ubah sesuai kebutuhan */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 20px; /* Jarak atas */
+  }
+  
+}  
